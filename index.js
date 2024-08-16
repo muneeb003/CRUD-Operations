@@ -72,7 +72,7 @@ app.delete("/api/product/:id", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://mmuneebkhan2003:SlvMDjvlECOGgPLH@cluster0.9vafsja.mongodb.net/Node-APi?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://<username>:<password>@cluster0.9vafsja.mongodb.net/Node-APi?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => console.log("Connected!"))
   .catch(() => {
